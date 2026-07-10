@@ -43,8 +43,6 @@ shape: (1, 64, 64)
 
 학습 데이터는 NASA FIRMS/VIIRS 화점, 기상청 ASOS 기상자료, SRTM DEM 지형자료, 소방시설 위치 정보를 결합하여 구성했습니다.
 
-GitHub에는 대용량 데이터 파일을 포함하지 않습니다. 실행 시 아래 파일을 `data/` 폴더에 별도로 위치시켜야 합니다.
-
 ```text
 data/
   X_train_terrain14_accessibility_2021_2024.npy
